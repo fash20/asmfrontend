@@ -1,0 +1,31 @@
+.header{
+    width: 100%;
+    background:#3c3c3c;
+    height: 46px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.title{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(233, 186, 58);
+    padding: 3px;
+
+}
+.item-2{
+    font-size: 15px;
+    padding: 3px;
+    color:#fff
+    /* background-color: crimson; */
+}
+.header-1{
+    width: 100%;
+    padding: 10px;
+    height: fit-content;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}

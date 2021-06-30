@@ -1,0 +1,8 @@
+.form-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 60px; */
+    color: #3c3c3c;
+    width: 100%;
+}

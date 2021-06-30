@@ -1,0 +1,31 @@
+.background-white{
+    background-color: #FFF;
+}
+.background-black{
+    background-color: #000;
+}
+.icon-clr{
+    color:#fff
+}
+
+.btn-clr-pri{
+    color: #fff;
+    background-color: #07A04A;
+}
+.btn-clr-pri:hover{
+    background-color: #0ac059;
+}
+.btn-clr-black{
+    color: #fff;
+    background-color: #3C3C3C;
+}
+.btn-clr-black:hover{
+    background-color: #4b4a4a;
+}
+.btn-clr-gold{
+    background-color: rgb(233, 186, 58);
+   
+}
+.btn-clr-gold:hover{
+    background-color: rgb(240, 198, 83);
+}

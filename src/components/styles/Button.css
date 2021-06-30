@@ -1,0 +1,19 @@
+.button{
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    width: 291px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+
+}
+.btn-size{
+    width: 80px;
+}
+.btn-icon{
+    margin: 0 10px
+}

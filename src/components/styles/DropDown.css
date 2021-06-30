@@ -1,0 +1,95 @@
+.dropdown-container{
+    position: relative;
+    margin:5px 0;
+    width: 100%;
+    display: flex;
+    padding:0 5px;
+    flex-direction: column;
+
+    /* justify-content: center; */
+}
+.dropdown-container label{
+    font: 14px;
+    margin:  2px 0;
+}
+.dropdown{
+    position: absolute;
+    margin-right:  2000px;
+    margin-top: 60px;
+    width: 100%;
+    border-radius: 3px;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    animation-name: dropdown-animation;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1 ;
+    animation-fill-mode: forwards;
+
+
+
+}
+
+/* .dropdown-anim{
+    transition: 5s;
+} */
+.dd-n-icon{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between; 
+    height: 40px; 
+    padding:0 8px;
+    margin: 2px 0;
+    border-radius: 3px;
+    background-color: #fff;
+    
+    /* border: 1px solid  #097770; */
+    /* z-index: 10; */
+
+}
+.dd-n-icon span {
+    font-size: 14px;
+
+}
+.dd-icon{
+    font-size: 12px;
+}
+.dd-active{
+   background-color: #fff;
+}
+.dd-item{
+    font-size: 14px;
+    padding: 5px;
+
+}
+.dd-item:hover{
+    background: #f2f2f2;
+}
+.dropdown-container label{
+    width: 100%;
+}
+
+@keyframes drp{
+    from{background-color: aqua}
+    to{background-color: azure}
+
+}
+
+@keyframes dropdown-animation {
+    0%{
+        opacity: 0;
+        background-color: #fff;
+    }
+    50%{
+        opacity: 0.5;
+        background-color: #fff;
+    }
+    100%{
+        opacity: 1;
+        background-color: #fff;
+    }
+    
+}

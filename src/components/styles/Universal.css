@@ -1,0 +1,56 @@
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.just-cent{
+    justify-content: center;
+}
+.just-left{
+    justify-content: right;
+}
+.ali-cent{
+    align-items: center;
+}
+.bdr5{
+    border-radius: 5px;
+}
+.fs18{
+    font-size: 18;
+}
+.bold{
+    font-weight: 900;
+}
+.mg-rl-20{
+    margin: 0 20px;
+}
+.mg-rl-10{
+    margin: 0 20px;
+}
+.mg-tb-20{
+    margin: 20px 0;
+}
+a{
+    color: inherit;
+    font-size: 13px;
+    text-decoration: none;
+}
+a:hover{
+    color: #F15C61;
+}
+.shadow{
+    /* box-shadow: 3px 10px #888888; */
+    /* box-shadow: 0 2px 8px 0px rgba(104, 99, 99, 0.2); */
+    box-shadow: 0 2px 8px 0px #d4d4d4;
+}
+.report-label{
+    font-weight: normal;
+    color: #6e090d;
+    float: left;
+}
+.link-1{
+    font-size: 14px;
+    padding:10px 0;
+    padding-right: 10px;
+}
